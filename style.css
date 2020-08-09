@@ -1,8 +1,49 @@
 body{
     background: black;
+    font-family: 'Arimo', sans-serif;
+}
+
+i{
+    margin: 12px
+}
+
+h3{
+    margin: 1px;
+}
+
+p{
+    margin: 1px;
+}
+
+img{
+    height: 412px;
+}
+
+.igpost{
+    margin: 400px;
 }
 
 .header{
     background: white;
     display: flex;
+    justify-content: space-between;
 }
+
+.post-header{
+    display: flex;
+    align-items: center;
+}
+
+.post-end{
+    display: flex;
+    align-items: center;
+}
+
+.header-caption{
+    background: white;
+}
+
+.likes > p{
+    margin: 10px;
+}
+
